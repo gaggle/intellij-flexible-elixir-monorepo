@@ -3,5 +3,10 @@
   <component name="ElixirSettingsState">
     <option name="elixirSdkPath" value="$USER_HOME$/.nix-profile/bin/elixir" />
     <option name="elixirVersion" value="1.19.5" />
+    <option name="enableMixFormat" value="true" />
+    <option name="formatOnSave" value="true" />
+    <option name="enableDialyzer" value="true" />
+    <option name="enableCredo" value="true" />
+    <option name="credoOnSave" value="true" />
   </component>
 </project>
