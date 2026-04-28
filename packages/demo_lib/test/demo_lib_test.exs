@@ -1,4 +1,5 @@
 defmodule DemoLibTest do
+  @moduledoc false
   use ExUnit.Case
   doctest DemoLib
 
