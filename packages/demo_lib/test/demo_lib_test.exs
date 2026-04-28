@@ -3,6 +3,13 @@ defmodule DemoLibTest do
   use ExUnit.Case
   doctest DemoLib
 
+  defmodule InlineModule do
+    @moduledoc false
+    use Foo,
+      ham: "spam",
+      egg: "spam"
+  end
+
   test "hello/0" do
     assert DemoLib.hello() == :world
   end
