@@ -11,6 +11,13 @@ defmodule DemoLibTest do
   end
 
   test "hello/0" do
+    test_pid = self()
+
+    foo = fn foo ->
+      send(test_pid, {:foo, "oh hi Mark"})
+      foo
+    end
+
     assert DemoLib.hello() == :world
   end
 
