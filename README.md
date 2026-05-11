@@ -1,3 +1,4 @@
 # intellij-flexible-elixir-monorepo
 
-Sample project to test IntelliJ Flexible Elixir plugin.
+Sample project to explore and test Elixir monorepos.
+
