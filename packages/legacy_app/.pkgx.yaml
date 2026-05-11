@@ -1,0 +1,3 @@
+dependencies:
+  elixir-lang.org: =1.17.3
+  erlang.org: =27.3.4
