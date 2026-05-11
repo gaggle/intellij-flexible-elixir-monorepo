@@ -3,8 +3,6 @@ defmodule DemoLib.MixProject do
 
   def project do
     [
-      workspace: [type: :project],
-      lockfile: "../../workspace.lock",
       app: :demo_lib,
       version: "0.1.0",
       elixir: "~> 1.18",
